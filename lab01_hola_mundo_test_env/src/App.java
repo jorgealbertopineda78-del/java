@@ -3,7 +3,10 @@ public class App {
         System.out.println("Hello, World!");
     }
 
-    public static int suma(int a, int b) {
+    public static int suma(int a, i) {
+        return a + b;
+    }
+        public static int suma(int a, int b, int c) {
         return a + b;
     }
 }
