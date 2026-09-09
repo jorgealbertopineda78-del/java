@@ -1,0 +1,16 @@
+Respuestas de Reflexion - Laboratorio 02
+
+1. ¿Por que declaramos los atributos como private y no como public?
+Se declaran como private para aplicar el principio de Encapsulamiento. 
+Esto evita que el estado interno del objeto sea modificado directamente de forma arbitraria desde clases externas, 
+protegiendo la integridad de la informacion y permitiendo controlar el acceso a traves de metodos (getters y setters).
+
+2. ¿Que pasaria si quitaras el super() del constructor de Perro?
+Java intentaria llamar al constructor por defecto sin parametros de la clase padre (Animal()). 
+Sin embargo, como definimos un constructor explicito con parametros en Animal y no dejamos un constructor vacio, 
+la compilacion fallaria marcando un error.
+
+3. ¿Que ventaja tiene sobreescribir toString() en lugar de crear un metodo con otro nombre?
+La ventaja principal es que toString() es un metodo estandar definido en la clase base Object. 
+Java lo invoca de forma automatica cuando intentamos imprimir el objeto directamente (por ejemplo, con System.out.println(perro)), 
+lo que simplifica el codigo y mejora su legibilidad.
