@@ -11,7 +11,7 @@ public class App {
         an.dormir();
 
         Perro p = new Perro("Firulais", 3, 15.0, "Labrador");
-        p.comer();
+        p..comer();
         p.dormir(); 
         
     }

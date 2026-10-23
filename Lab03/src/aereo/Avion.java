@@ -9,6 +9,7 @@ public class Avion extends Vehiculo implements IVolar {
     public Avion(String marca, String modelo, int anio, double velocidadMax, int numMotores) {
         super(marca, modelo, anio, velocidadMax);
         this.numMotores = numMotores;
+        this.
     }
 
     public int getNumMotores() {

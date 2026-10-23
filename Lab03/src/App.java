@@ -7,6 +7,8 @@ public class App {
         Vehiculo vehiculo = new Vehiculo("Toyota", "Corolla", 2020, 180.0);
         vehiculo.describir();
         Avion avion = new Avion("Boeing", "737", 2010, 850.0, 2);
-        
+        avion.
+
+
     }
 }
